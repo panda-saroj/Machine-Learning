@@ -53,3 +53,29 @@ k = 10
 
 myknnregress(X, test, k)
 
+
+
+For The following programs, we need 
+Software Requirement
+====================
+1. Python 3.5 or more
+2. python numpy module
+3. python sklearn module
+
+Binary_Logistic Regression.py
+1. Implements a simple perceptron Neural Network for logistric regression.
+2.  #Mean and covariance of the dataset of two classes
+mean1 = [1, 0]
+mean2 = [0, 1.5]
+
+cov1 = [[1, 0.75], [0.75, 1]]
+cov2 = [[1, 0.75], [0.75, 1]]
+
+3. Training data, generate 3000 training instances in two sets of random data points (1500 in each) and label them 0 and 1.
+4. Generate testing data in the same manner but sample 500 instances for each class,
+i.e., 1000 in total.
+5. Use sigmoid function for your activation function and cross entropy for your objective
+function, and perform batch training.
+6. Plot an ROC curve and compute Area Under the Curve (AUC) in
+the end to evaluate your implementation
+
