@@ -56,7 +56,7 @@ myknnregress(X, test, k)
 
 
 For The following programs, we need 
-Software Requirement
+Softwares
 ====================
 1. Python 3.5 or more
 2. python numpy module
@@ -78,4 +78,6 @@ i.e., 1000 in total.
 function, and perform batch training.
 6. Plot an ROC curve and compute Area Under the Curve (AUC) in
 the end to evaluate your implementation
-
+7. Change the following parameters at the top of the file for different number of iterations and learning rate
+train_iterations = 3000
+learning_rate = 0.001
