@@ -15,11 +15,11 @@ Naive_Bayes_ML.py
 
 
 KNN_Classify.py
-1. Implements a KNN Classifier Function myknnclassify(X, test, k), 
+1. Implements a KNN Classifier Function myknnclassify(X, test, k), which predicts the class of the test instance test based on training data in X and the k value 
  i. X: File containing the data set
  ii. test: Test Instance
  iii. k: k value
-2. Uses a two dimensional points dataset for testing. You are free to use your dataset and k value
+2. Uses a two dimensional points dataset points.csv for testing. You are free to use your dataset and k value
 3. Modify the following part to run for your test values.
 
 #Testing with points data
@@ -28,3 +28,21 @@ test = [33,3]
 k = 6
 
 myknnclassify(X, test, k)
+
+
+
+KNN_Regression.py
+1. Implements a KNN Regression Function myknnregress(X, test, k), which predicts the regression value for the test instance test based on training data in X and the k value. 
+ i. X: File containing the data set
+ ii. test: Test Instance
+ iii. k: k value
+2. Uses a two dimensional points dataset points.csv for testing. You are free to use your dataset and k value
+3. Modify the following part to run for your test values.
+
+#Testing with points data
+X = 'points.csv'
+test = [33,3]
+k = 10
+
+myknnregress(X, test, k)
+
