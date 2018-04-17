@@ -79,5 +79,7 @@ function, and perform batch training.
 6. Plot an ROC curve and compute Area Under the Curve (AUC) in
 the end to evaluate your implementation
 7. Change the following parameters at the top of the file for different number of iterations and learning rate
+
 train_iterations = 3000
+
 learning_rate = 0.001
