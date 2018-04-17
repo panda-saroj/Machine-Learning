@@ -44,13 +44,8 @@ KNN_Regression.py
 3. Modify the following part to run for your test values.
 
 #Testing with points data
-
 X = 'points.csv'
-
 test = [33,3]
-
 k = 10
-
-
 myknnregress(X, test, k)
 
