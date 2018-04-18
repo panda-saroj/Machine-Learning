@@ -55,8 +55,7 @@ myknnregress(X, test, k)
 
 
 
-For The following programs, we need 
-Softwares
+Packages Required
 ====================
 1. Python 3.5 or more
 2. python numpy module
